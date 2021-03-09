@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Digital Board</string>
+    <string name="greeting">Welcome to Login App</string>
+    <string name="app_login_text">Application Login</string>
+    <string name="login_button">Login</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+</resources>

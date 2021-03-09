@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/optionOne"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/optionTwo"
+        android:title="Option 2" />
+
+    <item
+        android:id="@+id/optionThree"
+        android:title="Option 3" />
+
+    <item
+        android:id="@+id/optionFour"
+        android:title="Option 4" />
+    <item
+        android:id="@+id/optionFive"
+        android:title="Option 5" />
+</menu>
