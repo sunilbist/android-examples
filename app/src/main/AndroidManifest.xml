@@ -12,22 +12,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DigitalBoard">
+
+        <receiver android:name=".AlarmBroadcast"/>
+        <activity android:name=".AlarmActivity">
+        </activity>
         <activity android:name=".AsyncActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".NotiActivity">
 
         </activity>
-        <activity android:name=".SnackActivity"></activity>
+        <activity android:name=".NotiActivity"></activity>
+        <activity android:name=".SnackActivity" />
         <activity android:name=".DummyActivity" />
         <activity android:name=".ContextMenuActivity" />
         <activity android:name=".PopupMenuActivity" />
         <activity android:name=".OptionMenuActivity" />
-        <activity android:name=".NastWebViewActivity"></activity>
+        <activity android:name=".NastWebViewActivity" />
         <activity android:name=".CustomListActivity" />
         <activity android:name=".ListViewActivity" />
         <activity
